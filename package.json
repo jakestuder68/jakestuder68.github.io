@@ -1,0 +1,40 @@
+{
+  "name": "html5-course-project-template",
+  "version": "0.0.1",
+  "description": "project template for html5 course conversion",
+  "author": "jwinkworth",
+  "license": "MIT",
+  "dependencies": {
+    "brightspace-html5-component-library": "git+https://gitlab.tvo.org/ilcdcc/brightspace-html5-component-library.git#1.1.15",
+    "gvl": "git+https://gitlab.tvo.org/html5-course-libraries/gvl.git#1.1.1-epsilon",
+    "graphing-widget": "git+https://gitlab.tvo.org/html5-course-libraries/graphing-widget.git#1.0.6",
+    "header-navbar-widget": "git+https://gitlab.tvo.org/html5-course-libraries/header-navbar-widget.git#1.0.1",
+    "html5-media-controller": "git+https://gitlab.tvo.org/html5-course-libraries/html5-media-controller.git#1.0.1",
+    "learning-goals-widget": "git+https://gitlab.tvo.org/html5-course-libraries/learning-goals-widget.git#1.0.1",
+    "matching-combo-widget": "git+https://gitlab.tvo.org/html5-course-libraries/matching-combo-widget.git#1.1.4",
+    "math-array-widget": "git+https://gitlab.tvo.org/html5-course-libraries/math-array-widget.git#1.1.4",
+    "multiple-choice-widget": "git+https://gitlab.tvo.org/html5-course-libraries/multiple-choice-widget.git#1.1.4",
+    "mathjax": "2.7.5"
+  },
+  "scripts": {
+    "publish": "webpack --config ./webpack/webpack.prod.js",
+    "local": "webpack --config ./webpack/webpack.local.js",
+    "start": "webpack-dev-server --config ./webpack/webpack.dev.js"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.1",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.1",
+    "webpack-shell-plugin": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.tvo.org/ilcdcc/html5-course-project-template.git"
+  }
+}
