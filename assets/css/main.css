@@ -1,0 +1,113 @@
+/** {
+	border: solid 1pt grey;
+}*/
+
+html, body{
+  height:100%;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	background-color: #F8F9F9;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.group:after { /* aka clearfix*/
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+.appWrapper {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 434px;
+	height: 500px;
+	/*max-height: 500px;*/
+	border: 1px solid #C6CDD0;
+	background-color: #F8F9F9;
+	padding: 20px;
+}
+
+.appNav {
+	width: 100%;
+	background-color: #F8F9F9;
+}
+
+.appNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.appNav ul li {
+	float: left;
+    display: inline-block;
+    text-align: center;
+	width: 90px;
+    padding: 10px 10px;
+}
+
+.appNav ul li.active {
+	font-weight: bold;
+	background-color: #F5F5F5;
+}
+
+/* Style the links inside the list items */
+.appNav ul li a {
+}
+
+.mainView {
+	padding: 20px;
+}
+
+h2, p {
+	margin: 0px 0px 20px 0px;
+}
+
+.summary {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.correct {
+	color: #007FA3;
+}
+
+.incorrect {
+	color: #EC1944;
+}
+
+/* class for equation descriptions in math course widgets */
+.equationLabel {
+width: 0; 
+height: 0; 
+display: inline-block; 
+overflow: hidden;
+}
+
+.marginTop {
+	margin-top: 20px;
+}
+
+.marginBottom {
+	margin-bottom: 40px;
+}
+
+#submit {
+	display: inline;
+	float: left;
+	position: absolute;
+	margin-left: 790px;
+	margin-top:-40px;
+}
+
+.alignments {
+	text-align: center;
+	vertical-align: middle; 
+}
+

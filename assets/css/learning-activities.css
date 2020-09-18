@@ -1,0 +1,82 @@
+/*Comment the first style out to run Pedagogue review PDFs*/
+.invisible{ display: none !important; }
+/*Comment the first style out to run Pedagogue review PDFs*/
+
+
+/*for pedagogue review of print PDF*/
+@media print {
+.hidden {
+display: block; }
+.invisible {
+visibility: visible; }
+.collapse {
+display: block; }
+.answer_reveal, .answer_reveal-right,
+.answer_reveal_hint {
+display: block; }
+.tab-content > .tab-pane {display:block !important; border-top:1px solid orange; padding-top:40px}
+.tab-pane.fade {opacity:1; display:block}
+}
+
+/* Write Learning Activity CSS overrides here. */
+
+
+.to_code {
+/*identify items that need fixes*/
+background-color:#8bf4ff;
+
+}
+
+h1 img{
+ /*allows image to clear top nav and sections set for buttons*/
+padding-top:40px
+
+}
+
+.answer_reveal, .answer_reveal-right {
+/*removes flex layout for SAs*/
+display:block;
+padding:3%;
+
+}
+
+.answer_reveal p {
+/* removes p margin SAs*/
+margin:0 0 .8em 0;
+padding:0 5% 0 2.5%;
+
+}
+
+/*Adds padding between rows - so SAs don't bump into text below*/
+div.row { padding-bottom:1.5rem; }
+
+
+/*Adds linespacing to accordion paragraphs*/
+.accordionILC .panel-body p{
+margin: 0 0 .8em 0;
+
+}
+
+.caption {font-size: 0.8em; line-height: 1.2em; text-align: left;}
+/* Spacing between content topics */
+
+/*Only lower border that relates to content*/
+.ilc-row-text, .ilc-row-img { border:none; }
+
+
+
+  .ilc-row-video .callout_content_icon {
+      display: flex;
+  }
+  .ilc-row-video .callout_content_icon img {
+      max-height: 10rem;
+      max-width: 8rem;
+  }
+  .ilc-row-video .callout_content_icon p {
+      padding-left: 2rem;
+  }
+
+  .ilc-row-video h3 {
+      border-bottom: 1px dashed #c6cdd0;
+      padding-bottom: 1rem;
+  }

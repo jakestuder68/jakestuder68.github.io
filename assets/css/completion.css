@@ -1,0 +1,29 @@
+.completionActivity {
+	font-size: 18px;
+}
+
+.completionItem, .completionControls {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.completionQuestion {
+	float: left;
+	display: inline-block;
+	width: 25%;
+}
+
+.completionFeedback {
+	display: inline-block;
+}
+
+.answerGroup {
+	float: left;
+	height: 50px;
+	max-width: 75%;
+}
+
+select {
+	margin-bottom: 5px;
+	max-width: 100%;
+}

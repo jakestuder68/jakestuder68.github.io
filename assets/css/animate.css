@@ -1,0 +1,16 @@
+/* ANIMATIONS
+============================================================================= */
+
+.ng-enter,  .ng-hide-remove        { animation:0.5s lightSpeedOut ease; }
+
+/* light speed out */
+
+@keyframes lightSpeedOut {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
